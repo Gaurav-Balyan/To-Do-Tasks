@@ -1,14 +1,13 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { TodosComponent } from './todos.component';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
-import { ApiMockService } from '../api-mock.service';
-import { TodoDataService } from '../todo-data.service';
-import { ApiService } from '../api.service';
+import { ApiMockService } from '../../services/api-mock.service';
+import { TodoDataService } from '../../services/todo-data.service';
+import { ApiService } from '../../services/api.service';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
-import { AuthService } from 'app/auth.service';
-import { SessionService } from 'app/session.service';
+import { AuthService } from '../../services/auth.service';
+import { SessionService } from '../../services/session.service';
 import { RouterTestingModule } from '@angular/router/testing';
 
 describe('TodosComponent', () => {

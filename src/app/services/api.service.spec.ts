@@ -2,7 +2,7 @@ import { TestBed, inject } from '@angular/core/testing';
 
 import { ApiService } from './api.service';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { SessionService } from 'app/session.service';
+import { SessionService } from './session.service';
 
 describe('ApiService', () => {
   beforeEach(() => {
