@@ -19,3 +19,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 Run `ng test --code-coverage` and navigate to `coverage` folder to view code coverage for each file
+
+## Running linter
+
+Run `ng lint` to view the status of linting
