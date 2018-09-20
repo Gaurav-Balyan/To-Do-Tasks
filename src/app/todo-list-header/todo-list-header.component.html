@@ -1,0 +1,10 @@
+<header class="header">
+  <h1>Todos</h1>
+  <input
+    class="new-todo"
+    placeholder="Specify the name and press enter"
+    autofocus
+    [(ngModel)]="newTodo.title"
+    (keyup.enter)="addTodo()"
+  >
+</header>
